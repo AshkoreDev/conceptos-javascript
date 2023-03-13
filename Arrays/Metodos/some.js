@@ -7,14 +7,13 @@ const numbers = [1, 2, 'a', 3, 4];
 
 let item = numbers.some((n, index) => {
 
-	console.log(index);
+	console.log('index', index);
 
 	return typeof n === 'string';
 });
 
-console.log(item); /* 0
-										  1
-										  2
-											10 
+console.log(item); /* index 0
+										  index 1
+										  index 2
 											true
 									 */
