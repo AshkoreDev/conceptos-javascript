@@ -16,6 +16,6 @@ const budgets = [
 	}
 ];
 
-const item = budgets.find(item => item.budget < 8000);
+let item = budgets.find(item => item.budget < 8000);
 
 console.log(item);

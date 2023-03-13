@@ -4,6 +4,6 @@
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const item = numbers.filter(item => item >= 5 && item <= 10);
+let item = numbers.filter(item => item >= 5 && item <= 10);
 
 console.log(item);
