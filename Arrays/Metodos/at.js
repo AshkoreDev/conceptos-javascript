@@ -3,7 +3,7 @@
 // Sirve también para acceder a los elementos de un String.
 
 
-// NÚMEROS POSITIVOS.
+// NÚMEROS POSITIVOS
 const numbers = [1, 20, 45, 60];
 
 let number = numbers.at(2); // Acceder al elemento 3.
@@ -11,7 +11,7 @@ let number = numbers.at(2); // Acceder al elemento 3.
 console.log(number);
 
 
-// NÚMEROS NEGATIVOS.
+// NÚMEROS NEGATIVOS
 const words = ['Apple', 'Orange', 'Potato', 'Onion'];
 
 let word = words.at(-1); // Acceder al último elemento.
@@ -19,5 +19,5 @@ let word = words.at(-1); // Acceder al último elemento.
 console.log(word);
 
 
-// STRINGS.
+// STRINGS
 console.log('JavaScript'.at(4)); // Acceder a la letra S.

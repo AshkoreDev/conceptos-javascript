@@ -3,9 +3,9 @@
 // Detiene la iteración cuando consigue un elemento que no cumpla la condición.
 
 
+// TODOS LOS ELEMENTOS SEAN DE TIPO NUMBER
 const numbers = [1, 2, 3, 4];
 
-// TODOS LOS ELEMENTOS SEAN DE TIPO NUMBER.
 let item = numbers.every((number, index) => {
 
 	console.log(index);
@@ -13,4 +13,4 @@ let item = numbers.every((number, index) => {
 	return typeof number === 'number';
 });
 
-console.log(item);
+console.log(item); // True

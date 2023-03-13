@@ -3,17 +3,17 @@
 // Se puede usar INFINITY para que aplane cualquier nivel.
 
 
-// UN SÓLO NIVEL.
+// UN SÓLO NIVEL
 const numbers = [1, 2, 3, [4, 5]];
 
 let item = numbers.flat();
 
-console.log(item);
+console.log(item); // [1, 2, 3, 4, 5]
 
 
-// 3 NIVELES.
+// 3 NIVELES
 const numbers1 = [1, 2, 3, [4, 5, [6, 7, [8, 9]]]];
 
 let item1 = numbers1.flat(3);
 
-console.log(item1);
+console.log(item1); // [1, 2, 3, 4, 5, 6, 7, 8, 9]

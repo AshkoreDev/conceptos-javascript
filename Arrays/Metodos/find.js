@@ -1,6 +1,7 @@
 // FIND, se usa para filtrar el primer elemento de un array que cumpla con una condición.
 
 
+// 1ER ELEMENTO QUE SU BUDGET SEA MENOR A 8000
 const budgets = [
 	{
 		city: 'California',
@@ -18,4 +19,4 @@ const budgets = [
 
 let item = budgets.find(item => item.budget < 8000);
 
-console.log(item);
+console.log(item); // { city: 'California', budget: 5500 }

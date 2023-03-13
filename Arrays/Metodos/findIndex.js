@@ -2,6 +2,7 @@
 // Si no encuentra ninguna coincidencia devolverá -1.
 
 
+// INDICE DEL PRIMERO ELEMENTO QUE SU BUDGET SEA MENOR A 8000
 const budgets = [
 	{
 		city: 'California',
@@ -19,4 +20,4 @@ const budgets = [
 
 let item = budgets.findIndex(item => item.budget < 8000);
 
-console.log(item);
+console.log(item); // 0
