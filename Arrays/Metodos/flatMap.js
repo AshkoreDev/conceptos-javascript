@@ -1,5 +1,5 @@
-// FLATMAP, SE USA PARA COMBINAR LA FUNCIONALIDADES DE FLAT Y DE MAP.
-// PRIMERO TRANSFORMA EL ARRAY Y LUEGO APLANA EL RESULTADO.
+// FLATMAP, se usa para combinar las funcionalidades de Flat y de Map.
+// Primero transforma el array y luego aplana el resultado.
 
 
 // FILTRAR LOS IMPARES Y MULTIPLICARLOS POR 2.

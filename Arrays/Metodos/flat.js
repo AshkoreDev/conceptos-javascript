@@ -1,6 +1,7 @@
-// FLAT, SE USA PARA APLANAR UN ARRAY, CUANDO EXISTE UN ARRAY DENTRO DE UN ARRAY. ELIMINA EL ARRAY ANIDADO.
-// SÓLO CONSUME UN NIVEL POR DEFECTO, PERO SE LE PUEDE PASAR EL NÚMERO DE NIVELES A CONSUMIR.
-// SE PUEDE USAR INFINITY PARA QUE CONSUMA TODOS LOS NIVELES.
+// FLAT, se usa para aplanar un array, cuando existen uno o varios arrays anidados, eliminandolos y dejando un solo nivel del array.
+// Sólo consume un nivel por defecto, pero se le puede pasar el número de niveles a aplanar.
+// Se puede usar INFINITY para que aplane cualquier nivel.
+
 
 // UN SÓLO NIVEL.
 const numbers = [1, 2, 3, [4, 5]];

@@ -2,6 +2,7 @@
 // Devuelve un Booleano.
 // Detiene la iteración cuando consigue un elemento que no cumpla la condición.
 
+
 const numbers = [1, 2, 3, 4];
 
 // TODOS LOS ELEMENTOS SEAN DE TIPO NUMBER.
