@@ -19,14 +19,14 @@ for (let i = 0; i < words.length; i++) {
 }
 
 console.log('Original ', words);
-console.log('New ', newArray);
+console.log('New ', newArray); // "exuberant"
 
 
 // CON FILTER 
 const newArray2 = words.filter(item => item.length >= 6);
 
 console.log('Original ', words);
-console.log('New 2 ', newArray2);
+console.log('New 2 ', newArray2); // "exuberant"
 
 
 
